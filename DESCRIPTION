@@ -12,5 +12,5 @@ Depends:
   colorspace,
   RColorBrewer,
   data.table,
-  iotc.core.utils.misc,
-  iotc.core.utils.constants
+  iotc.core.utils.misc (>= 0.2.0),
+  iotc.core.utils.constants (>= 0.2.0)
