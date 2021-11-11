@@ -1,6 +1,6 @@
 Package: iotc.core.utils.aes
 Title: IOTC core aesthetic utilities and constants
-Version: 0.2.0
+Version: 0.2.1
 Author: Fabio Fiorellato <fabio.fiorellato@fao.org>
 Maintainer: Fabio Fiorellato <fabio.fiorellato@fao.org>
 Description: Collection of miscellaneous functions and constants in support of harmonized aesthetics management (including color codes etc.)
