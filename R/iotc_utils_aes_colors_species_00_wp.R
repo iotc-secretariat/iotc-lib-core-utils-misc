@@ -4,23 +4,23 @@ species_wps_colors = data.table(SPECIES_WP_CODE = character(), FILL = character(
 
 ## Neritic tunas
 wp.neri.fill = rgb(250, 192, 144, alpha=255, max=255)
-wp.neri.outline = darken(wp.neri.fill, amount=0.2)
+wp.neri.outline = darken(wp.neri.fill, amount = 0.2)
 
 ## Temperate tunas
 wp.temp.fill = rgb(215, 228, 189, alpha=255, max=255)
-wp.temp.outline = darken(wp.temp.fill, amount=0.2)
+wp.temp.outline = darken(wp.temp.fill, amount = 0.2)
 
 ## Billfish
 wp.bill.fill = rgb(179, 162, 199, alpha=255, max=255)
-wp.bill.outline = darken(wp.bill.fill, amount=0.2)
+wp.bill.outline = darken(wp.bill.fill, amount = 0.2)
 
 ## Ecosystems and bycatch
 wp.byct.fill = darken("turquoise" , 0.2)
-wp.byct.outline = darken(wp.byct.fill, amount=0.2)
+wp.byct.outline = darken(wp.byct.fill, amount = 0.2)
 
 ## Tropical
-wp.trop.fill = rgb(185, 205, 229, alpha=255, max=255)
-wp.trop.outline = darken(wp.trop.fill, amount=0.2)
+wp.trop.fill = darken(rgb(185, 205, 229, alpha=255, max=255), amount = 0.2)
+wp.trop.outline = darken(wp.trop.fill, amount = 0.2)
 
 # UNCLassified
 wp.uncl.fill = "grey"
