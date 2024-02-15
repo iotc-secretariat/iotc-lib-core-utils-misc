@@ -23,14 +23,14 @@ CPC_CHN_FLEET_CODES = c(
   "CHN", "TWN"
 )
 
-#Non reporting CPC fleet codes (3)
+#Non reporting CPC fleet codes (2)
 CPC_NON_REPORTING_FLEET_CODES = c(
-  "ERI", "SOM", "SDN"
+  "SOM", "SDN"
 )
 
 #Non-CPC fleet codes (16)
 NON_CPC_FLEET_CODES = c(
-  "BHR", "BLZ", "DJI", "TMP", "EGY", "GIN", "ISR",
+  "BHR", "BLZ", "DJI", "ERI", "TMP", "EGY", "GIN", "ISR",
   "JOR", "KWT", "MMR", "QAT", "SAU", "SEN", "SUN",
   "ARE", "VUT"
 )
@@ -40,12 +40,12 @@ NEI_FLEET_CODES = c(
   "NEIDN", "NEISU", "NEICE", "NEIFR", "NEIPS"
 )
 
-for(cpc in CPC_FLEET_CODES) FLEET_CODES = append(FLEET_CODES, cpc)
-for(cpc in CPC_EU_FLEET_CODES) FLEET_CODES = append(FLEET_CODES, cpc)
-for(cpc in CPC_CHN_FLEET_CODES) FLEET_CODES = append(FLEET_CODES, cpc)
+for(cpc in CPC_FLEET_CODES)               FLEET_CODES = append(FLEET_CODES, cpc)
+for(cpc in CPC_EU_FLEET_CODES)            FLEET_CODES = append(FLEET_CODES, cpc)
+for(cpc in CPC_CHN_FLEET_CODES)           FLEET_CODES = append(FLEET_CODES, cpc)
 for(cpc in CPC_NON_REPORTING_FLEET_CODES) FLEET_CODES = append(FLEET_CODES, cpc)
-for(cpc in NON_CPC_FLEET_CODES) FLEET_CODES = append(FLEET_CODES, cpc)
-for(cpc in NEI_FLEET_CODES) FLEET_CODES = append(FLEET_CODES, cpc)
+for(cpc in NON_CPC_FLEET_CODES)           FLEET_CODES = append(FLEET_CODES, cpc)
+for(cpc in NEI_FLEET_CODES)               FLEET_CODES = append(FLEET_CODES, cpc)
 
 fleet_colors_vector = character()
 
